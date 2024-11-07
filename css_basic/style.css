@@ -40,4 +40,30 @@ body {
   footer {
     margin-top: auto; 
   }
-  
+  @media (max-width: 768px) {
+    body.works_on_smartphone {
+        display: block; 
+    }
+
+    main {
+        display: block; 
+    }
+
+    article, aside {
+        width: 100%; 
+        flex: none; 
+    }
+
+    
+    header, footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 16px; 
+    }
+
+    
+    article, aside {
+        padding: 10px;
+        font-size: 14px; 
+    }
+}
